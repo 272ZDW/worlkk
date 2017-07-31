@@ -32,10 +32,10 @@ assert.fail(1, 2, '错误信息', '<');
 // 如果 value 为真，则抛出 value。 可用于测试回调函数的 error 参数。
 assert.ifError(1);
 // 测试是否不深度相等。 与 assert.deepEqual() 相反。
-assert.notDeepEqual(a, b);
+assert.notDeepEqual(1, 2);
 //
 // 测试是否不深度全等。 与 assert.deepStrictEqual() 相反。
-assert.notDeepStrictEqual(a,b);
+assert.notDeepStrictEqual(1,2);
 //
 //
 //
