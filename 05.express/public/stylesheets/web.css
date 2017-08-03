@@ -1,0 +1,622 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    /*border: 1px solid black;*/
+    /*overflow: hidden;*/
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.title {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.moment {
+    margin: 25px 120px;
+    width: 100px;
+    height: 50px;
+}
+
+.login {
+    display: inline-block;
+}
+
+.title div {
+    float: left;
+}
+
+.first {
+    width: 80px;
+    height: 97px;
+    border-bottom: 3px solid black;
+    text-align: center;
+    line-height: 100px;
+    font-size: 15px;
+}
+
+.nav {
+    width: 80px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 15px;
+}
+
+.pen {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url("img/4884FDE9DE9610B940E2BA7FD943954E.jpg");
+    background-size: 100% 100%;
+}
+
+.pen:hover {
+    background: url("img/B25504459674513FBBFF4C276ECB6737.jpg");
+    background-size: 100% 100%;
+}
+
+.login {
+    float: left;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #BCDCC1;
+    margin-left: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50px;
+    color: darkgreen;
+}
+
+.login:hover {
+    color: white;
+    background-color: darkgreen;
+    transition: all 1s;
+
+}
+
+.right {
+    width: 300px;
+    height: 52px;
+    float: right;
+    overflow: hidden;
+    margin: 25px 50px;
+
+}
+
+.first:hover {
+    background-color: lightgray;
+}
+
+.nav:hover {
+    background-color: lightgray;
+}
+
+.second {
+    width: 920px;
+    margin: 180px auto;
+    padding: 0;
+}
+
+.secondImg {
+    width: 900px;
+    height: 450px;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.left {
+    float: left;
+    width: 450px;
+    height: 450px;
+}
+
+.leftBorder {
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+}
+
+.right1 {
+    width: 225px;
+    height: 225px;
+    margin: 0;
+}
+
+.rightWrap {
+    float: left;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+}
+.rightBorder {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    width: 225px;
+    height: 225px;
+}
+.firstMask {
+    width: 450px;
+    height: 100px;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+.line {
+    width: 40px;
+    /*height: 1px;*/
+    border: 1px solid white;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.firstWord {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+.firstWord a{
+    color: white;
+    text-decoration: none;
+}
+.leftBorder img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.leftBorder:hover .firstMask {
+    display: block;
+}
+.firstMask1 {
+    width: 225px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.8;
+    display: none;
+}
+.rightBorder:hover .right1{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.rightBorder:hover .firstMask1{
+    display: block;
+}
+.firstWord1 {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    font-size: 20px;
+    color: white;
+    width: 210px;
+    height: 20px;
+    overflow: hidden;
+}
+.firstWord1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.line1 {
+    width: 20px;
+    border: 0.2px solid white;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.secondTitle {
+    width: 900px;
+    height: 40px;
+    margin: 50px auto 35px;
+}
+
+.secondTitle div {
+    display: inline-block;
+
+}
+
+.secondTitleNav {
+    margin: 10px 10px;
+    /*width: 20px;*/
+    height: 20px;
+}
+
+.secondBlock {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.readC {
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    border-right: 1px solid black;
+    padding: 0;
+}
+
+.readE {
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 0;
+}
+
+.secondContent1 {
+    margin: 10px auto;
+    width: 900px;
+    height: 250px;
+    border: 1px solid lightgray;
+    position: relative;
+    overflow: hidden;
+}
+
+.contentnLeft {
+    width: 570px;
+    float: left;
+}
+
+.secondContentTitle {
+    margin: 20px 15px;
+
+    /*top: 20px;*/
+}
+.secondContentTitle a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.secondContentTitle a:hover {
+    color: chartreuse;
+}
+
+.contentWriter {
+    padding: 0;
+    margin: 6px 15px;
+
+}
+.contentWriter a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.contentWriter a:hover {
+    color: chartreuse;
+}
+
+.content {
+    margin: 5px 15px;
+    font-size: 15px;
+
+    font-weight: 200;
+}
+
+.contentLine {
+    width: 45px;
+    border: 1px solid black;
+    margin: 15px 15px;
+}
+
+.contentRight {
+    width: 300px;
+    height: 250px;
+    background: url("http://hpimg.pianke.me/37563e4b91cdb37d6784d234454d8f5020170619.jpg?imageView2/2/w/640/format/jpg&quot;");
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 30px;
+}
+
+.contentRead {
+    display: inline-block;
+    border-right: 1px solid lightgrey;
+    padding: 0 10px 0 0;
+    color: lightgrey;
+}
+
+.contentCritics {
+    display: inline-block;
+    border-right: 1px solid lightgrey;
+    padding: 0 5px;
+    color: lightgrey;
+}
+
+.contentLike {
+    display: inline-block;
+    margin: 0 5px;
+    color: lightgrey;
+}
+
+.critics {
+    margin: 50px 15px;
+}
+
+.content a {
+    color: green;
+    text-decoration: none;
+}
+
+.contentRight1 {
+    width: 300px;
+    height: 250px;
+    background: url("http://hpimg.pianke.me/47f879d4128bb2b0922861a77e8f598d20170426.jpg?imageView2/2/w/640/format/jpg&quot;");
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 30px;
+}
+
+.contentRight2 {
+    width: 300px;
+    height: 250px;
+    background: url("http://hpimg.pianke.me/254ca7c5dfdbc1f0f5675767589d144920170505.jpg?imageView2/2/w/640/format/jpg&quot;");
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 30px;
+}
+
+.music {
+    width: 900px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.firstMusic {
+    width: 270px;
+    height: 400px;
+    position: relative;
+    float: left;
+}
+.musicPic1 {
+    width: 270px;
+    height: 270px;
+}
+.playMusic {
+    width: 80px;
+    height: 20px;
+    border-right: 1px solid lightgray;
+    display: inline-block;
+    font-size: 10px;
+}
+.criticsNum {
+    width: 70px;
+    height: 20px;
+    border-right: 1px solid lightgray;
+    display: inline-block;
+    font-size: 10px;
+}
+.musicLike {
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.musicTitle {
+
+    margin: 15px;
+}
+.musicTitle a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.musicAutor {
+    margin: 10px 15px;
+}
+.musicAutor a{
+    color: black;
+    text-decoration: none;
+}
+
+.musicCritics {
+    margin: 10px 15px;
+}
+
+.secondMusic {
+    width: 270px;
+    height: 400px;
+
+    float: left;
+    margin: 0 45px;
+}
+
+.musicPic1 {
+    width: 270px;
+    height: 270px;
+}
+
+.musicPic2 {
+    width: 270px;
+    height: 270px;
+}
+
+.musicPic3 {
+    width: 270px;
+    height: 270px;
+}
+
+.musicTitle a:hover {
+    color: darkgreen;
+}
+.musicAutor a:hover {
+    color: darkgreen;
+}
+.musicPic:hover .musicPic1{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.musicPic:hover .musicPic2{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.musicPic:hover .musicPic3{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.musicPic:hover .musicMask{
+    display: block;
+}
+.musicPic {
+    overflow: hidden;
+    position: relative;
+}
+.foot {
+    width: 900px;
+    margin: 5px auto 20px;
+    overflow: hidden;
+}
+.firstMusician {
+    width: 210px;
+    height: 210px;
+    background: url("img/user-bg.png");
+    background-size: 100% 100%;
+    overflow: hidden;
+    float: left;
+}
+.footPic {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 50px;
+    float: left;
+    margin-left: 10px;
+}
+
+.footAutor {
+    margin-top: 20px ;
+    /*font-weight: lighter;*/
+}
+.footAutor a{
+    color:black;
+    text-decoration: none;
+}
+.footAutor a:hover{
+    color: darkgreen;
+}
+/*.footAutor:hover{*/
+/*color: green;*/
+/*}*/
+
+.footSinger {
+    display: inline-block;
+    color: lightgray;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.footLine{
+    border: 1px solid black;
+    width: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.footDirection {
+    width: 100px;
+    height: 90px;
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+    margin-top: 50px;
+
+
+}
+.musicians{
+    margin: 5px 20px;
+}
+.secondMusician,.thirdMusician ,.fourthMusician{
+    width: 210px;
+    height: 210px;
+    background: url("img/user-bg.png");
+    background-size: 100% 100%;
+    overflow: hidden;
+    float: left;
+    margin: 0 0 0 15px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+    overflow: hidden;
+}
+.footerImg{
+    float: left;
+    margin-left: 280px;
+}
+.footerImg img{
+    width: 120px;
+    height: 50px;
+    margin: 25px 50px;
+
+}
+.footerContent{
+    float: left;
+    margin: 35px 20px;
+}
+.footerAddress{
+    color: lightgray;
+    font-weight: lighter;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.footerSettings a{
+    font-size: 10px;
+    color: lightgray;
+    text-decoration: none;
+}
+.footerLogo{
+    float: left;
+    margin: 25px 200px;
+}
+.footerLogo img{
+    margin: 0 10px;
+}
+.musicMask{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: black;
+    opacity: 0.2;
+    z-index:5;
+    display: none;
+}
+.musicStart{
+    width:90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -45px;
+    margin-top: -45px;
+
+}
